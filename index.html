@@ -103,100 +103,19 @@
       <section class="filters container">
         <!--=============== FILTERS TABS ===============-->
         <ul class="filters__content">
+          <button class="filters__button filter-tab-active" data-target="#skills">Skills</button>
           <button
-            class="filters__button filter-tab-active"
+            class="filters__button"
             data-target="#projects"
           >
             Projects
           </button>
-          <button class="filters__button" data-target="#skills">Skills</button>
         </ul>
 
         <div class="filters__sections">
-          <!--=============== PROJECTS ===============-->
-          <div
-            class="projects__content grid filters__active"
-            data-content
-            id="projects"
-          >
-            <article class="projects__card">
-              <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
-              <img src="assets/img/project1.jpg" alt="" class="projects__img" />
-
-              <div class="projects__modal">
-                <div>
-                  <span class="projects__subtitle">Algorithm</span>
-                  <h3 class="projects__title">Leet Code Solutions</h3>
-                  <a
-                    href="https://github.com/fabiMofar/leetcode-solutions"
-                    class="projects__button button button__small"
-                    target="_blank"
-                  >
-                    <i class="ri-link"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-
-            <article class="projects__card">
-              <img src="assets/img/project2.jpg" alt="" class="projects__img" />
-
-              <div class="projects__modal">
-                <div>
-                  <span class="projects__subtitle">Web</span>
-                  <h3 class="projects__title">Portfolio website</h3>
-                  <a href="#" class="projects__button button button__small">
-                    <i class="ri-link"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-
-            <article class="projects__card">
-              <img src="assets/img/project3.jpg" alt="" class="projects__img" />
-
-              <div class="projects__modal">
-                <div>
-                  <span class="projects__subtitle">Movil</span>
-                  <h3 class="projects__title">Fast food app</h3>
-                  <a href="#" class="projects__button button button__small">
-                    <i class="ri-link"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-
-            <article class="projects__card">
-              <img src="assets/img/project4.jpg" alt="" class="projects__img" />
-
-              <div class="projects__modal">
-                <div>
-                  <span class="projects__subtitle">Movil</span>
-                  <h3 class="projects__title">Travel app</h3>
-                  <a href="#" class="projects__button button button__small">
-                    <i class="ri-link"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-
-            <article class="projects__card">
-              <img src="assets/img/project5.jpg" alt="" class="projects__img" />
-
-              <div class="projects__modal">
-                <div>
-                  <span class="projects__subtitle">Design</span>
-                  <h3 class="projects__title">Music app design</h3>
-                  <a href="#" class="projects__button button button__small">
-                    <i class="ri-link"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-          </div>
 
           <!--=============== SKILLS ===============-->
-          <div class="skills__content grid" data-content id="skills">
+          <div class="skills__content grid filters__active" data-content id="skills">
             <div class="skills__area">
               <h3 class="skills__title">Frontend Developer</h3>
 
@@ -388,6 +307,110 @@
               </div>
             </div>
           </div>
+
+          <!--=============== PROJECTS ===============-->
+          <div
+            class="projects__content grid"
+            data-content
+            id="projects"
+          >
+            <article class="projects__card">
+              <img src="assets/img/project5.jpg" alt="" class="projects__img" />
+
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">To Do App</span>
+                  <h3 class="projects__title">Sample Todo Application with React Native</h3>
+                  <a href="https://github.com/fabiMofar/ToDo-App/tree/master" class="projects__button button button__small" target="_blank">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects__card">
+              <img src="assets/img/project4.jpg" alt="" class="projects__img" />
+
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Messanager Clone</span>
+                  <h3 class="projects__title">A Messanger App with Next.js, Mongo DB , Prisma</h3>
+                  <a href="https://github.com/fabiMofar/messanger_clone/tree/developer" class="projects__button button button__small" target="_blank">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects__card">
+              <img src="assets/img/project3.jpg" alt="" class="projects__img" />
+
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Chess</span>
+                  <h3 class="projects__title">Chess Game with Js</h3>
+                  <a href="https://github.com/fabiMofar/Chess_Js/tree/master" class="projects__button button button__small" target="_blank">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects__card">
+              <img src="assets/img/project2.jpg" alt="" class="projects__img" />
+
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Step Progress</span>
+                  <h3 class="projects__title">Sample Step Progress with React</h3>
+                  <a href="https://github.com/fabiMofar/Step_Process/tree/master" class="projects__button button button__small" target="_blank">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects__card">
+              <img src="assets/img/project2.jpg" alt="" class="projects__img" />
+
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Twitter Clone</span>
+                  <h3 class="projects__title">Twitter App Backend with Node js</h3>
+                  <a href="https://github.com/fabiMofar/tweeter_clone/tree/master" class="projects__button button button__small" target="_blank">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects__card">
+              <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+              <img src="assets/img/project1.jpg" alt="" class="projects__img" />
+
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Algorithm</span>
+                  <h3 class="projects__title">Leet Code Solutions</h3>
+                  <a
+                    href="https://github.com/fabiMofar/leetcode-solutions"
+                    class="projects__button button button__small"
+                    target="_blank"
+                  >
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+
+
+
+
+
+
+          </div>
+
         </div>
       </section>
     </main>
